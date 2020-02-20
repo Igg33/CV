@@ -1,0 +1,152 @@
+body {
+    margin-right: 145px;
+    
+}
+.Info {
+    float: left;
+    width: 300px;
+    background: #3f6592;
+    height: 750px;
+    
+}
+img {
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    background: url(i3s0irpS_400x400.jpg);
+    border-radius: 158px;
+    margin-left: 35px;
+    border: solid 2px whitesmoke ;
+    
+    }
+.Info h1 {
+    margin: 5cm;
+    font-size: 17px;
+    margin-left: 12px;
+    color: white
+}
+.Info p {
+    margin-top: -5cm;
+    margin-left: 12px;
+    color: white;
+    font-size: 17px;
+}
+.Langue h1{
+    margin-top: auto;
+
+}
+.Langue h2 {
+    margin-top: auto;
+    color: white;
+    margin-left: 12px;
+    font-size: 17px ;
+}
+
+.e {
+    background-color: #ffffff;
+    width: 87%;
+    height: 700px;
+    margin-left: 305px;
+}
+.e p {
+    font-size: 20px;
+    color: #3f6592;
+}
+.e ul {
+    font-size: 20px;
+    color:#3f6592 ;
+}
+.e h1 {
+    font-size: 22px;
+}
+
+.Fig {
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    margin-left: 60px;
+    
+    
+}
+.Fig li{
+    list-style: none;
+}
+.Langue i{
+    color: aliceblue;
+    
+}
+
+.di {
+    margin-top: -5cm;
+}
+@media screen and (max-width:375px) {
+    .Info{
+        font-size: 13px;
+        width: 40%;
+        height: 2000px;
+    }
+    img{
+        margin-left: -5%;
+        margin-right: 90%;
+        height:7%;
+        width: 15%;
+    }
+    .e {
+        margin-left: 48%;
+        
+    }
+
+}
+@media screen and (max-width:360px) {
+    .Info{
+        font-size: 13px;
+        width: 90px;
+        height: 1400px
+
+    }
+    img{
+        margin-left: -4%;
+        margin-right: 90%;
+        height:14%;
+        width: 15%;
+    }
+    .e {
+        margin-left: 49%;
+        
+    }
+
+}
+@media screen and (max-width:411px) {
+    .Info{
+        font-size: 13px;
+        width: 45%;
+        height: 1400px;
+    }
+    img{
+        margin-left: -5%;
+        margin-right: 90%;
+        height:7%;
+        width: 15%;
+    }
+    .e {
+        margin-left: 48%;
+        
+    }
+}
+    @media screen and (max-width:414px){
+        .Info {
+            font-size: 13px;
+            width: 40%;
+            height: 1200px;
+        }
+        img{
+            margin-left: -5%;
+            margin-right: 90%;
+            height:7%;
+            width: 15%;
+        }
+        .e {
+            margin-left: 48%;
+            
+        }
+    }
